@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Vladimir-Kod/hws2-master.git/static/css/main.a6a065b8.css",
+    "main.js": "/Vladimir-Kod/hws2-master.git/static/js/main.08488f57.js",
+    "static/js/787.66cb4309.chunk.js": "/Vladimir-Kod/hws2-master.git/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/Vladimir-Kod/hws2-master.git/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/Vladimir-Kod/hws2-master.git/index.html",
+    "main.a6a065b8.css.map": "/Vladimir-Kod/hws2-master.git/static/css/main.a6a065b8.css.map",
+    "main.08488f57.js.map": "/Vladimir-Kod/hws2-master.git/static/js/main.08488f57.js.map",
+    "787.66cb4309.chunk.js.map": "/Vladimir-Kod/hws2-master.git/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6a065b8.css",
+    "static/js/main.08488f57.js"
+  ]
+}
