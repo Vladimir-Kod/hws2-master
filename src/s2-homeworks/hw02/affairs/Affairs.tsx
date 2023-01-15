@@ -4,15 +4,15 @@ import {AffairType, FilterType} from '../HW2'
 import s from './Affairs.module.css'
 
 type AffairsPropsType = {
-    data: any // need to fix any
-    setFilter: any
-    deleteAffairCallback: any
+    data:  AffairType[] // need to fix any
+    setFilter: (filter: FilterType)=> void // всегда нужно описвывать параметор и его тип
+    deleteAffairCallback: (id: number)=>void
     filter: FilterType
 }
 
 function Affairs(props: AffairsPropsType) {
     const setAll = () => {
-        // need to fix
+    props.setFilter("all")
     }
     const setHigh = () => {
         // need to fix
