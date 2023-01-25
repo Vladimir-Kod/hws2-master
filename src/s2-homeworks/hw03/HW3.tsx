@@ -35,6 +35,9 @@ const HW3 = () => {
 
     const addUserCallback = (name: string) => { // need to fix any
         pureAddUserCallback(name, setUsers, users)
+        console.log(users.length)
+
+
     }
 
     return (

@@ -8,12 +8,19 @@
 }
 
 .input {
+
 }
 
 .input:focus {
 }
 
 .errorInput {
+    border: 2px solid red;
+    outline: none;
+}
+
+.error-text {
+    color: red
 }
 
 .button {
