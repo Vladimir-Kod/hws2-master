@@ -15,10 +15,10 @@ export const pureAddUser = (name: string, setError: (value:string)=>void, setNam
 }
 
 export const pureOnBlur = (name: string, setError: (value:string)=>void) => { // если имя пустое - показать ошибку
-     name.trim() === "" ? setError("Ошибка! Введите имя!") : ""
+     name.trim() === "" && setError("Ошибка! Введите имя!")
 }
 
-export const pureOnEnter = (e: KeyboardEvent<HTMLButtonElement>, addUser: ()=>void) => { // если нажата кнопка Enter - добавить
+export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: ()=>void) => { // если нажата кнопка Enter - добавить
     if (e.key === "Enter"){
         addUser()
     }
@@ -50,7 +50,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
         pureOnBlur(name, setError)
     }
 
-    const onEnter = (e: KeyboardEvent<HTMLButtonElement>) => {
+    const onEnter = (e: KeyboardEvent<HTMLInputElement>) => {
         pureOnEnter(e, addUser)
     }
 
